@@ -1,0 +1,98 @@
+div{
+
+    background-color: aqua;
+    width: 300px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+    text-align: center;
+}
+
+a.pseudo:visited {
+    color: teal;
+}
+
+
+a.pseudo:hover {
+    color: white;
+}
+
+a.pseudo:active {
+    color: green;
+}
+
+.box {
+
+    background-color: rgb(30, 190, 160);
+    width: 400px;
+    border: 15px solid rgb(19, 80, 202);
+    padding: 50px;
+    margin: 50px;
+    
+}
+
+p {
+    background-color: rgb(50, 205, 182);
+color: whitesmoke;
+margin: 40px 100px 40px 50px;
+}
+
+body{
+    background: aqua
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+    text-align: center;
+}
+
+p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+    text-align: center;
+}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+    text-align:left;
+}
+
+li{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+    text-align:left;
+}
+
+
+img{
+    align-items: center;
+}
+
+#image {
+  
+    margin-top: 20px;
+
+    margin-bottom: 50px;
+
+    margin-right: 200px;
+
+    margin-left: 0px;   
+}
+
+/* The animation code */
+@keyframes example {
+    from {background-color: rgb(21, 18, 207);}
+    to {background-color: rgb(30, 190, 160);}
+  }
+  
+  /* The element to apply the animation to */
+  div {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(30, 190, 160);
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+
