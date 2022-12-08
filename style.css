@@ -1,3 +1,98 @@
+
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(46, 75, 60);
+    text-align: center;
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(46, 75, 60);
+    text-align:center;
+}
+
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(46, 75, 60);
+    text-align:left;
+}
+
+
+body{
+    background:  rgb(106, 134, 117)
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(46, 75, 60);
+    text-align: left;
+}
+li{
+    font-family:Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(46, 75, 60);
+    text-align: left;
+}
+
+.box {
+
+    background-color: rgb(114, 147, 122);
+    width: 1000px;
+    border: 15px solid rgb(59, 83, 66);
+    padding: 50px;
+    margin: 50px;
+margin-left: 30%;}
+
+
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .center {
+    text-align: center;
+    border: 3px solid rgb(77, 98, 77);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 div{
 
     background-color: aqua;
@@ -80,13 +175,15 @@ img{
     margin-left: 0px;   
 }
 
-/* The animation code */
+/* 
+
+/*The animation code 
 @keyframes example {
     from {background-color: rgb(21, 18, 207);}
     to {background-color: rgb(30, 190, 160);}
   }
   
-  /* The element to apply the animation to */
+  /* The element to apply the animation to
   div {
     width: 200px;
     height: 100px;
